@@ -1,3 +1,73 @@
+$navbar-default-bg: #088880;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a{
+ color: white;   
+}
+
+.center{
+
+    text-align: center;
+}
+.article-action{
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description{
+    margin-top: 0;
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.jumbotron{
+    background-image: asset-url("cover.jpg");
+    background-size: cover;
+    height: 550px; 
+}
+.jumbotron h1{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+    color: #777;
+}
+.footer a:hover{
+    color: #222;
+}
+.footer small{
+    float: left;
+}
+.footer ul{
+    float: right;
+    list-style: none;
+}
+.footer ul li{
+    float: left;
+    margin-left: 15px;
+}
 
